@@ -1,0 +1,53 @@
+.flex-two-part{
+    background-color: inherit;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.counter-app{
+    width: 45%;
+}
+h1{
+    letter-spacing: 2px;
+}
+button{
+    text-transform: capitalize;
+    border-style: none;
+    padding: 2%;
+    margin: 3% 1%;
+    background-color: rgb(95, 253, 201);
+    border: rgb(196, 192, 192) solid 1px;
+    border-radius: 10px;
+}
+button:hover{
+    border-color: black;
+}
+.color-part-2{
+    width: 45%;
+}
+li{
+   margin: 2%;
+   display: flex;
+}
+.colorShow{
+    width: 20px;
+    height: 20px;
+    margin: 0 2%;
+}
+@media (max-width : 992px) {
+    .flex-two-part{
+        flex-direction: column;
+    }
+    .counter-app{
+        width: 100%;
+        padding: 0 3%;
+        margin: 5% 0 0 0;
+    }
+    .color-part-2{
+        width: 100%;
+        padding: 0 3%;
+        margin: 5% 0 0 0;
+    }
+}
